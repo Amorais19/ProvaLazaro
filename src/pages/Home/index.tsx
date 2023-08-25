@@ -1,12 +1,14 @@
 import * as S from './styles'
-import TruckLeft from "../../assets/truckleft.png"
-import TruckRight from "../../assets/truckright.png"
 
 export function Home() {
   return (
     <S.Section>
-      <img src={TruckLeft} alt="Caminhão na esquerda" />
-      <img src={TruckRight} alt="Caminhão na direita" />
+      <div>
+        <div><p>Descrição de Receita</p></div>
+        <div><p>Dicas de Cozinha</p></div>
+        <div><p>Artigo sobre Ingredientes</p></div>
+        <div><p>Blog de Viagem Gastronômica</p></div>
+      </div>
     </S.Section>
   )
 }
